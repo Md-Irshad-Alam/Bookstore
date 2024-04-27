@@ -2,8 +2,10 @@
 
 The Book Management API is a Node.js application built using Express.js and MongoDB Atlas for managing a book inventory. It provides features for user authentication, book CRUD operations, and filtering/searching books based on authors and publication years.
 
-## Technologies Used
+## Deployed link
+- Click here ['https://bookstore-unar.onrender.com/']
 
+## Technologies Used
 - **Node.js**: A JavaScript runtime used for building the backend server.
   
 - **Express.js**: A web application framework for Node.js used for creating RESTful APIs.
@@ -68,8 +70,8 @@ The Book Management API is a Node.js application built using Express.js and Mong
 
 ### Filtering/Search Endpoints
 
-- **GET /api/books?author=author_name**: Filter books by author name.
-- **GET /api/books?years=years**: Filter books by publication year.
+- **GET /books/filter?author=author_name**: Filter books by author name.
+- **GET /books/filter?years=years**: Filter books by publication year.
 
 ## Deployment
 
